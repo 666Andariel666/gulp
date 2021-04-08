@@ -1,0 +1,11 @@
+.header{
+    @include container();
+    &-nav{
+        display: flex;
+        justify-content: space-between;
+        
+        &__list{
+            display: flex;
+        }
+    }
+}
